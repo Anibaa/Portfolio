@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Projects - Yassine Aniba</title>
+    </head>
+<body>
+    <header class="header-area">
+        <!-- Top Bar -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="top-info">
+                            <span><i class="fas fa-envelope me-2"></i>anibayassine@ieee.org</span>
+                            <span class="ms-3"><i class="fas fa-map-marker-alt me-2"></i>Rades, Tunisia</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-social text-end">
+                            <a href="#" class="social-mini-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-mini-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-mini-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-text">Y.</span>
+                    <span class="text-gradient">ANIBA</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="fas fa-home me-1"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">
+                                <i class="fas fa-user me-1"></i>About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">
+                                <i class="fas fa-cogs me-1"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="projects.html">
+                                <i class="fas fa-code me-1"></i>Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skills.html">
+                                <i class="fas fa-tools me-1"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">
+                                <i class="fas fa-blog me-1"></i>Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <i class="fas fa-envelope me-1"></i>Contact
+                            </a>
+                        </li>
+                        <li class="nav-item ms-lg-3">
+                            <a href="cvA.pdf" class="btn btn-gradient btn-sm">
+                                <i class="fas fa-download me-1"></i>Resume
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="projects-section py-6 mt-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <span class="subtitle text-gradient">My Work</span>
+                    <h2 class="display-5 fw-bold mb-4">Featured Projects</h2>
+                    <div class="section-divider mx-auto"></div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Flutter E-Commerce App -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/5856d6/ffffff?text=Flutter+Shop" class="card-img-top" alt="Flutter E-Commerce">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">FlutterShop Pro</h5>
+                            <p class="card-text text-muted">A full-featured e-commerce mobile app with Firebase backend, payment integration, and real-time inventory management.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Stripe</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#flutterModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MERN Social Platform -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/61dafb/000000?text=MERN+Social" class="card-img-top" alt="MERN Social Platform">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">ConnectHub</h5>
+                            <p class="card-text text-muted">Social networking platform with real-time chat, post sharing, and user authentication using the MERN stack.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#mernModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next.js Portfolio -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/000000/ffffff?text=Next.js+Portfolio" class="card-img-top" alt="Next.js Portfolio">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">DevFolio Next</h5>
+                            <p class="card-text text-muted">Modern portfolio website built with Next.js 13, featuring server components, MDX blog, and dynamic routing.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#nextjsModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEAN Task Manager -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/dd0031/ffffff?text=MEAN+Tasks" class="card-img-top" alt="MEAN Task Manager">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">TaskFlow Pro</h5>
+                            <p class="card-text text-muted">Advanced task management system with team collaboration features, built using the MEAN stack.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#meanModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nuxt.js Blog -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/00dc82/ffffff?text=Nuxt+Blog" class="card-img-top" alt="Nuxt.js Blog">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">TechBlog Vue</h5>
+                            <p class="card-text text-muted">Modern tech blog platform with content management system, built using Nuxt 3 and Prisma ORM.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Nuxt.js</span>
+                                <span class="tech-tag">Vue 3</span>
+                                <span class="tech-tag">Prisma</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#nuxtModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JavaScript Game -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card card card-hover border-0 shadow-lg h-100">
+                        <div class="project-img-wrapper">
+                            <img src="https://placehold.co/600x400/f7df1e/000000?text=JS+Game" class="card-img-top" alt="JavaScript Game">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-3">SpaceRunner 3D</h5>
+                            <p class="card-text text-muted">Browser-based 3D endless runner game using Three.js and vanilla JavaScript with physics engine.</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Three.js</span>
+                                <span class="tech-tag">WebGL</span>
+                            </div>
+                            <button class="btn btn-gradient mt-3 w-100" data-bs-toggle="modal" data-bs-target="#gameModal">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area">
+        <!-- Main Footer -->
+        <div class="main-footer py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- About Column -->
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <h4 class="text-gradient mb-4">About Me</h4>
+                            <p class="text-light mb-4">Passionate software engineer dedicated to creating elegant solutions through code. Specializing in web development and user experience design.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Quick Links -->
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <h4 class="text-gradient mb-4">Quick Links</h4>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="footer-links">
+                                        <li><a href="index.html"><i class="fas fa-chevron-right me-2"></i>Home</a></li>
+                                        <li><a href="projects.html"><i class="fas fa-chevron-right me-2"></i>Projects</a></li>
+                                        <li><a href="skills.html"><i class="fas fa-chevron-right me-2"></i>Skills</a></li>
+                                        <li><a href="contact.html"><i class="fas fa-chevron-right me-2"></i>Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="footer-links">
+                                        <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Blog</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Privacy</a></li>
+                                        <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Terms</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Contact Info -->
+                    <div class="col-lg-4">
+                        <div class="footer-widget">
+                            <h4 class="text-gradient mb-4">Contact Info</h4>
+                            <div class="contact-info">
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    <div class="contact-text">
+                                        <h6 class="mb-0">Email</h6>
+                                        <p class="mb-0">anibayassine@ieee.org</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item mb-3">
+                                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                                    <div class="contact-text">
+                                        <h6 class="mb-0">Location</h6>
+                                        <p class="mb-0">Rades, Tunisia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright Bar -->
+        <div class="copyright-bar py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0 text-center text-md-start">
+                            &copy; 2024 <span class="text-gradient">Yassine Aniba</span>. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mb-0 text-center text-md-end">
+                            Crafted with <i class="fas fa-heart text-gradient"></i> by Yassine Aniba
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Project Modals -->
+    <!-- Flutter Project Modal -->
+    <div class="modal fade" id="flutterModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">FlutterShop Pro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/5856d6/ffffff?text=Flutter+Shop" class="img-fluid rounded" alt="Flutter E-Commerce">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>A full-featured e-commerce mobile app with Firebase backend, payment integration, and real-time inventory management.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>User authentication</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Real-time inventory</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Stripe payment integration</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Push notifications</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Stripe</span>
+                                <span class="tech-tag">GetX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MERN Social Platform Modal -->
+    <div class="modal fade" id="mernModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">ConnectHub</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/61dafb/000000?text=MERN+Social" class="img-fluid rounded" alt="MERN Social Platform">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>Social networking platform with real-time chat, post sharing, and user authentication using the MERN stack.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Real-time messaging</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Social feed with interactions</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>User profiles and connections</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Media sharing capabilities</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Socket.io</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next.js Portfolio Modal -->
+    <div class="modal fade" id="nextjsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">DevFolio Next</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/000000/ffffff?text=Next.js+Portfolio" class="img-fluid rounded" alt="Next.js Portfolio">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>Modern portfolio website built with Next.js 13, featuring server components, MDX blog, and dynamic routing.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Server-side rendering</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>MDX blog integration</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Dynamic project showcase</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Dark/Light theme</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind</span>
+                                <span class="tech-tag">MDX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MEAN Task Manager Modal -->
+    <div class="modal fade" id="meanModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">TaskFlow Pro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/dd0031/ffffff?text=MEAN+Tasks" class="img-fluid rounded" alt="MEAN Task Manager">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>Advanced task management system with team collaboration features, built using the MEAN stack.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Team collaboration</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Task tracking</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Progress analytics</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>File sharing</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nuxt.js Blog Modal -->
+    <div class="modal fade" id="nuxtModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">TechBlog Vue</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/00dc82/ffffff?text=Nuxt+Blog" class="img-fluid rounded" alt="Nuxt.js Blog">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>Modern tech blog platform with content management system, built using Nuxt 3 and Prisma ORM.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Content management</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>SEO optimization</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Comment system</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Newsletter integration</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Nuxt.js</span>
+                                <span class="tech-tag">Vue 3</span>
+                                <span class="tech-tag">Prisma</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Game Modal -->
+    <div class="modal fade" id="gameModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title fw-bold">SpaceRunner 3D</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://placehold.co/600x400/f7df1e/000000?text=JS+Game" class="img-fluid rounded" alt="JavaScript Game">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold text-gradient">Project Overview</h6>
+                            <p>Browser-based 3D endless runner game using Three.js and vanilla JavaScript with physics engine.</p>
+                            
+                            <h6 class="fw-bold text-gradient mt-4">Key Features</h6>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>3D graphics</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Physics simulation</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Score system</li>
+                                <li><i class="fas fa-check-circle text-gradient me-2"></i>Mobile controls</li>
+                            </ul>
+
+                            <h6 class="fw-bold text-gradient mt-4">Technologies</h6>
+                            <div class="tech-stack">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Three.js</span>
+                                <span class="tech-tag">WebGL</span>
+                                <span class="tech-tag">Cannon.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fab fa-github me-2"></i>View Code
+                    </a>
+                    <a href="#" class="btn btn-gradient">
+                        <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
